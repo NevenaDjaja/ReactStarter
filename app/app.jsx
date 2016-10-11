@@ -1,7 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var MyComponent = require('MyComponent');
 
 ReactDOM.render(
-  <h1>React starter</h1>,
+  <MyComponent/>,
   document.getElementById('app')
 );
